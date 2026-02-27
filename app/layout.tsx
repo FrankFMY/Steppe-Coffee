@@ -15,7 +15,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: "Steppe Coffee — Кофе, рождённый степью",
   description:
-    "Сеть кофеен в Алматы. Свежая обжарка, локальные поставщики, уютная атмосфера.",
+    "Сеть кофеен в Москве. Свежая обжарка, локальные поставщики, уютная атмосфера.",
 };
 
 export default function RootLayout({

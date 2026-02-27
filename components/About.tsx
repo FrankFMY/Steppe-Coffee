@@ -90,7 +90,7 @@ export default function About() {
           </h2>
           <div className="w-16 h-px bg-terracotta/40 mx-auto mb-8" />
           <p className="text-brown-light text-lg max-w-2xl mx-auto leading-relaxed">
-            Steppe Coffee родился в 2019 году из простой идеи — дать Алматы
+            Steppe Coffee родился в 2019 году из простой идеи — дать Москве
             кофе, достойный этого города. Мы начинали с маленькой обжарочной, а
             сегодня у нас три кофейни и тысячи гостей, которые стали друзьями.
           </p>

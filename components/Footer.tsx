@@ -18,7 +18,7 @@ export default function Footer() {
               Steppe Coffee
             </h3>
             <p className="leading-relaxed">
-              Сеть кофеен в Алматы. Свежая обжарка, уникальные рецепты и
+              Сеть кофеен в Москве. Свежая обжарка, уникальные рецепты и
               атмосфера, в которую хочется возвращаться.
             </p>
           </div>
@@ -29,18 +29,18 @@ export default function Footer() {
             </h4>
             <div className="space-y-3">
               <a
-                href="tel:+77271234567"
+                href="tel:+74951234567"
                 className="block hover:text-cream transition-colors"
               >
-                +7 (727) 123-45-67
+                +7 (495) 123-45-67
               </a>
               <a
-                href="mailto:hello@steppecoffee.kz"
+                href="mailto:hello@steppecoffee.ru"
                 className="block hover:text-cream transition-colors"
               >
-                hello@steppecoffee.kz
+                hello@steppecoffee.ru
               </a>
-              <p>Алматы, Казахстан</p>
+              <p>Москва, Россия</p>
             </div>
           </div>
 

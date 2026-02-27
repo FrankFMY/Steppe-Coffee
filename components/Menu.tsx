@@ -107,7 +107,7 @@ export default function Menu() {
                     {drink.name}
                   </h3>
                   <span className="text-terracotta font-semibold whitespace-nowrap">
-                    {drink.price} ₸
+                    {drink.price} ₽
                   </span>
                 </div>
                 <p className="text-brown-light text-sm leading-relaxed">

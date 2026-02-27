@@ -23,7 +23,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-gold text-sm uppercase tracking-[0.3em] mb-6"
         >
-          Алматы · с 2019 года
+          Москва · с 2019 года
         </motion.p>
 
         <motion.h1
@@ -44,7 +44,7 @@ export default function Hero() {
           className="text-cream/70 text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed"
         >
           Каждая чашка — путешествие от бескрайних просторов до вашего стола.
-          Отборные зёрна, обжаренные с любовью в сердце Алматы.
+          Отборные зёрна, обжаренные с любовью в сердце Москвы.
         </motion.p>
 
         <motion.a
