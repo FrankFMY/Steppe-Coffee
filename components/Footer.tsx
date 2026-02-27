@@ -11,7 +11,7 @@ export default function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
-          className="grid md:grid-cols-3 gap-12 mb-12"
+          className="grid md:grid-cols-3 gap-8 lg:gap-12 mb-12"
         >
           <div>
             <h3 className="font-serif text-2xl text-cream mb-4">

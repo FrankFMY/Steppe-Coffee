@@ -5,11 +5,12 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
       <Image
         src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1920&q=80"
         alt="Интерьер кофейни Steppe Coffee"
         fill
+        sizes="100vw"
         className="object-cover"
         priority
       />
@@ -29,7 +30,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="font-serif text-5xl md:text-7xl lg:text-8xl text-cream leading-tight mb-8"
+          className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-cream leading-tight mb-8"
         >
           Кофе, рождённый
           <br />
@@ -63,7 +64,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5, duration: 1 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2"
+        className="absolute bottom-12 sm:bottom-8 left-1/2 -translate-x-1/2"
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}

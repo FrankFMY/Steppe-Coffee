@@ -23,7 +23,7 @@ const drinks = [
     price: "1 400",
     description: "Нежный сливочный кофе с натуральным мёдом и лавандой",
     image:
-      "https://images.unsplash.com/photo-1485808191679-5f86510681a1?w=400&q=80",
+      "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=400&q=80",
   },
   {
     name: "Флэт Уайт",
@@ -37,7 +37,7 @@ const drinks = [
     price: "900",
     description: "Чистый вкус свежеобжаренного зерна без лишнего",
     image:
-      "https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?w=400&q=80",
+      "https://images.unsplash.com/photo-1521302080334-4bebac2763a6?w=400&q=80",
   },
   {
     name: "Матча Латте",
@@ -97,6 +97,7 @@ export default function Menu() {
                   src={drink.image}
                   alt={drink.name}
                   fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>

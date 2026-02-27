@@ -104,7 +104,7 @@ export default function About() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: i * 0.15 }}
               viewport={{ once: true, margin: "-80px" }}
-              className="bg-white/60 backdrop-blur-sm rounded-2xl p-10 text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
+              className="bg-white/60 backdrop-blur-sm rounded-2xl p-6 lg:p-10 text-center hover:shadow-lg hover:-translate-y-1 transition-all duration-300 group"
             >
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-terracotta/10 text-terracotta mb-6 group-hover:bg-terracotta/20 transition-colors">
                 {item.icon}

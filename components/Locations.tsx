@@ -51,7 +51,7 @@ export default function Locations() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: i * 0.15 }}
               viewport={{ once: true, margin: "-80px" }}
-              className="bg-white/60 backdrop-blur-sm rounded-2xl p-8 hover:shadow-lg transition-all duration-300"
+              className="bg-white/60 backdrop-blur-sm rounded-2xl p-5 md:p-8 hover:shadow-lg transition-all duration-300"
             >
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-full bg-terracotta/10 flex items-center justify-center shrink-0">
